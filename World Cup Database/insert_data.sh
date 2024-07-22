@@ -26,3 +26,5 @@ do
     $PSQL "INSERT INTO games (year, round, winner_id, opponent_id, winner_goals, opponent_goals) VALUES ($year, '$round', $WINNER_ID, $OPPONENT_ID, $winner_goals, $opponent_goals)"
   fi
 done
+
+#by fauzancodes, 2024
